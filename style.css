@@ -62,27 +62,28 @@ nav a:hover {
   background: #00cccc;
 }
 
-.features {
-  display: flex;
-  justify-content: center;
-  gap: 40px;
-  flex-wrap: wrap;
-  padding: 40px 20px;
+.courses {
   background-color: #111;
+  padding: 40px 20px;
+  text-align: center;
 }
 
-.card {
+.course-card {
   background: #1a1a1a;
   padding: 20px;
+  margin: 20px auto;
+  max-width: 350px;
   border-radius: 15px;
-  width: 280px;
-  text-align: center;
   border: 1px solid #0ff;
-  transition: transform 0.3s;
 }
 
-.card:hover {
-  transform: scale(1.05);
+.course-card h3 {
+  color: #0ff;
+  margin-bottom: 10px;
+}
+
+.course-card p {
+  font-size: 1.1em;
 }
 
 .contact {
