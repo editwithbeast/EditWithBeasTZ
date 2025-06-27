@@ -2,64 +2,80 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>EditWithBeasT</title>
-    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EditWithBeasTZ - Learn Editing</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            background: linear-gradient(to right, #d3cce3, #e9e4f0);
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 900px;
+            margin: auto;
+            text-align: center;
+        }
+        h1 {
+            color: #2c3e50;
+        }
+        .course-card {
+            background-color: #ffffff;
+            border-radius: 15px;
+            box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+            padding: 25px;
+            margin: 25px 0;
+        }
+        .course-card h2 {
+            margin-top: 0;
+            color: #8e44ad;
+        }
+        .price {
+            font-size: 1.3em;
+            margin: 12px 0;
+        }
+        .discount {
+            text-decoration: line-through;
+            color: #999;
+            margin-right: 10px;
+        }
+        .button {
+            background-color: #27ae60;
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            border-radius: 8px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background 0.3s ease;
+        }
+        .button:hover {
+            background-color: #1e8449;
+        }
+    </style>
 </head>
 <body>
-    <header>
-        <img src="EditWithBeasTZ.png" alt="Logo" class="logo"/>
-        <h1>EditWithBeasT</h1>
-        <nav>
-            <a href="#courses">Courses</a>
-            <a href="#about">About</a>
-            <a href="#contact">Contact</a>
-        </nav>
-    </header>
-    <main>
-        <section class="hero">
-            <h2>Master Photo & Video Editing</h2>
-            <p>High-quality courses and presets to level up your skills.</p>
-        </section>
+    <div class="container">
+        <h1>Welcome to EditWithBeasTZ – Learn Editing with Shreyas Karale</h1>
 
-        <section id="courses" class="courses">
-            <h3>📚 Our Courses</h3>
-            <ul>
-                <li><strong>Normal Photo Editing Course</strong> – ₹199 <span class="offer">(Now ₹149 🎉)</span></li>
-                <li><strong>Advance Photo Editing Course</strong> – ₹299 <span class="offer">(Now ₹229 🎉)</span></li>
-                <li><strong>Master Photo Editing Course</strong> – ₹399 <span class="offer">(Now ₹299 🎉)</span></li>
-            </ul>
-        </section>
+        <div class="course-card">
+            <h2>1. Normal Editing Course</h2>
+            <p class="price"><span class="discount">₹1499</span> ₹999</p>
+            <button class="button">Enroll Now</button>
+        </div>
 
-        <section id="about" class="about">
-            <h3>🔥 About Me</h3>
-            <p>I'm Shreyas Karale, founder of EditWithBeasT. I help people turn ordinary photos into extraordinary visuals.
-            Our courses are affordable, beginner-friendly, and designed to help you grow step-by-step.</p>
-        </section>
+        <div class="course-card">
+            <h2>2. Advance Editing Course</h2>
+            <p class="price"><span class="discount">₹2499</span> ₹1499</p>
+            <button class="button">Enroll Now</button>
+        </div>
 
-        <section class="faq">
-            <h3>❓ FAQ</h3>
-            <p><strong>Q: Are the courses beginner-friendly?</strong><br>A: Yes! No experience needed.</p>
-            <p><strong>Q: Will I get lifetime access?</strong><br>A: Absolutely. Once purchased, it's yours forever.</p>
-        </section>
-
-        <section id="contact" class="contact">
-            <h3>📞 Contact Me</h3>
-            <p><strong>Phone:</strong> <a href="tel:9284802973">9284802973</a></p>
-            <p><strong>Email:</strong> <a href="mailto:editwithbeast@gmail.com">editwithbeast@gmail.com</a></p>
-            <p><strong>Instagram:</strong> <a href="https://instagram.com/thee.shreyazz" target="_blank">@thee.shreyazz</a></p>
-            <p><strong>WhatsApp:</strong> <a href="https://wa.me/919284802973" target="_blank">Chat on WhatsApp</a></p>
-        </section>
-
-        <section class="payments">
-            <h3>💳 Buy Now</h3>
-            <p>Pay using UPI: <strong>sonaligawate86@oksbi</strong> or <strong>9284802973@fam</strong></p>
-        </section>
-    </main>
-
-    <footer>
-        <p>&copy; 2025 EditWithBeasT. All rights reserved.</p>
-    </footer>
+        <div class="course-card">
+            <h2>3. Master Editing Course</h2>
+            <p class="price"><span class="discount">₹4999</span> ₹2499</p>
+            <button class="button">Enroll Now</button>
+        </div>
+    </div>
 </body>
 </html>
