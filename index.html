@@ -4,47 +4,123 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>EditWithBeasT</title>
-    <link rel="stylesheet" href="style.css">
+    <title>EditWithBeasTZ</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #00FFFF, #FF00FF, #00FF00);
+            color: #fff;
+            text-align: center;
+            background-size: 600% 600%;
+            animation: gradient 10s ease infinite;
+        }
+        @keyframes gradient {
+            0% {background-position: 0% 50%;}
+            50% {background-position: 100% 50%;}
+            100% {background-position: 0% 50%;}
+        }
+        header {
+            padding: 50px;
+        }
+        .login-signup {
+            background: rgba(0,0,0,0.5);
+            padding: 20px;
+            border-radius: 10px;
+            width: 300px;
+            margin: 0 auto 50px;
+        }
+        input {
+            width: 90%;
+            padding: 10px;
+            margin: 5px 0;
+            border: none;
+            border-radius: 5px;
+        }
+        button {
+            padding: 10px 20px;
+            background: #00FFFF;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin: 10px;
+        }
+        .courses, .presets, .about, .reviews, .contact, .disclaimer, footer {
+            margin: 50px auto;
+            max-width: 800px;
+            background: rgba(0,0,0,0.5);
+            padding: 20px;
+            border-radius: 10px;
+        }
+        .buy-btn {
+            display: inline-block;
+            background: #00FFFF;
+            padding: 10px 20px;
+            margin: 10px;
+            text-decoration: none;
+            color: #000;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+    </style>
 </head>
 <body>
     <header>
-        <img src="EditWithBeasTZ.png" alt="Logo" class="logo"/>
-        <nav>
-            <a href="#courses">Courses</a>
-            <a href="#about">About</a>
-            <a href="#contact">Contact</a>
-        </nav>
+        <h1>EditWithBeasTZ</h1>
+        <div class="login-signup">
+            <h2>Login</h2>
+            <input type="text" placeholder="Email"><br>
+            <input type="password" placeholder="Password"><br>
+            <button>Login</button>
+            <h2>Sign Up</h2>
+            <input type="text" placeholder="Email"><br>
+            <input type="password" placeholder="Password"><br>
+            <button>Sign Up</button>
+        </div>
     </header>
-    <main>
-        <section class="hero">
-            <h1>Learn Professional Editing</h1>
-            <p>Join our editing community and transform your skills.</p>
-        </section>
 
-        <section id="courses">
-            <h2>🎓 Our Courses</h2>
-            <ul>
-                <li><strong>Normal Photo Editing</strong> – ₹199 <span class="offer">(₹149 offer)</span></li>
-                <li><strong>Advance Photo Editing</strong> – ₹299 <span class="offer">(₹229 offer)</span></li>
-                <li><strong>Master Photo Editing</strong> – ₹399 <span class="offer">(₹299 offer)</span></li>
-            </ul>
-        </section>
+    <div class="courses">
+        <h2>Courses</h2>
+        <p>Silver Package Course - ₹499 <a href="#" class="buy-btn">Buy Now</a></p>
+        <p>Gold Package Course - ₹1499 <a href="#" class="buy-btn">Buy Now</a></p>
+        <p>Diamond Package Course - ₹2499 <a href="#" class="buy-btn">Buy Now</a></p>
+        <p>Brahmastra Package Course - ₹3499 <a href="#" class="buy-btn">Buy Now</a></p>
+        <p><strong>Discounts available!</strong></p>
+    </div>
 
-        <section id="about">
-            <h2>About EditWithBeasT</h2>
-            <p>We offer practical, hands-on courses for aspiring editors. Whether you're a beginner or looking to level up, we have something for you!</p>
-        </section>
+    <div class="presets">
+        <h2>Presets Payment</h2>
+        <p>For small payments: <strong>9284802973@fam</strong></p>
+        <p>For big payments: <strong>8623954681@oksbi</strong></p>
+    </div>
 
-        <section id="contact">
-            <h2>Contact Us</h2>
-            <p><strong>Phone:</strong> <a href="tel:9284802973">9284802973</a></p>
-            <p><strong>Email:</strong> <a href="mailto:editwithbeast@gmail.com">editwithbeast@gmail.com</a></p>
-            <p><strong>Instagram:</strong> <a href="https://instagram.com/thee.shreyazz">@thee.shreyazz</a></p>
-        </section>
-    </main>
+    <div class="about">
+        <h2>About Me</h2>
+        <p>My name is Shreyas Karale. I am passionate about creating amazing video and photo editing tutorials and high-quality presets to help you achieve stunning results.</p>
+        <p>Email: editwithbeast@gmail.com</p>
+        <p>Instagram: @thee.shreyazz</p>
+    </div>
+
+    <div class="reviews">
+        <h2>Customer Reviews</h2>
+        <p>"Amazing courses! Totally worth it." - Rahul M.</p>
+        <p>"Presets are super cool and easy to use." - Priya S.</p>
+        <p>"Loved the Brahmastra package, best value!" - Amit K.</p>
+    </div>
+
+    <div class="contact">
+        <h2>Contact</h2>
+        <p>Email: editwithbeast@gmail.com</p>
+        <p>WhatsApp: 9284802973</p>
+    </div>
+
+    <div class="disclaimer">
+        <h2>Disclaimer</h2>
+        <p>All content provided is for educational purposes only. Redistribution or resale without permission is prohibited. Refunds are not applicable once the digital content is delivered.</p>
+    </div>
+
     <footer>
-        <p>&copy; 2025 EditWithBeasT. All rights reserved.</p>
+        &copy; 2024, EditWithBeasTZ.
     </footer>
 </body>
 </html>
