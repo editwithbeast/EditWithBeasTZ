@@ -2,99 +2,64 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EditWithBeasTZ - Learn Editing</title>
-    <style>
-        body {
-            font-family: 'Segoe UI', sans-serif;
-            background: linear-gradient(to right, #d3cce3, #e9e4f0);
-            margin: 0;
-            padding: 20px;
-        }
-        .container {
-            max-width: 900px;
-            margin: auto;
-            text-align: center;
-        }
-        h1 {
-            color: #2c3e50;
-        }
-        .course-card {
-            background-color: #ffffff;
-            border-radius: 15px;
-            box-shadow: 0 6px 12px rgba(0,0,0,0.1);
-            padding: 25px;
-            margin: 25px 0;
-        }
-        .course-card h2 {
-            margin-top: 0;
-            color: #8e44ad;
-        }
-        .price {
-            font-size: 1.3em;
-            margin: 12px 0;
-        }
-        .discount {
-            text-decoration: line-through;
-            color: #999;
-            margin-right: 10px;
-        }
-        .button {
-            background-color: #27ae60;
-            color: white;
-            border: none;
-            padding: 12px 24px;
-            border-radius: 8px;
-            font-size: 16px;
-            cursor: pointer;
-            transition: background 0.3s ease;
-        }
-        .button:hover {
-            background-color: #1e8449;
-        }
-        .contact-section {
-            background-color: #f0f0f0;
-            border-radius: 12px;
-            padding: 20px;
-            margin-top: 40px;
-        }
-        .contact-section h2 {
-            color: #2c3e50;
-        }
-        .contact-info {
-            font-size: 1.1em;
-            color: #333;
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>EditWithBeasT</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <div class="container">
-        <h1>Welcome to EditWithBeasTZ – Learn Editing with Shreyas Karale</h1>
+  <header>
+    <img src="EditWithBeasTZ.png" alt="Logo" class="logo"/>
+    <nav>
+      <a href="#courses">Courses</a>
+      <a href="#about">About</a>
+      <a href="#faq">FAQ</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
 
-        <div class="course-card">
-            <h2>1. Normal Editing Course</h2>
-            <p class="price"><span class="discount">₹1499</span> ₹999</p>
-            <button class="button">Enroll Now</button>
-        </div>
+  <main>
+    <section class="hero">
+      <h1>Master Photo & Video Editing</h1>
+      <p>Learn editing from beginner to pro – start today!</p>
+    </section>
 
-        <div class="course-card">
-            <h2>2. Advance Editing Course</h2>
-            <p class="price"><span class="discount">₹2499</span> ₹1499</p>
-            <button class="button">Enroll Now</button>
-        </div>
+    <section id="courses">
+      <h2>📚 Courses</h2>
+      <ul>
+        <li><strong>Normal Photo Editing</strong> – ₹199 <span class="offer">(Now ₹149)</span></li>
+        <li><strong>Advance Photo Editing</strong> – ₹299 <span class="offer">(Now ₹229)</span></li>
+        <li><strong>Master Photo Editing</strong> – ₹399 <span class="offer">(Now ₹299)</span></li>
+      </ul>
+    </section>
 
-        <div class="course-card">
-            <h2>3. Master Editing Course</h2>
-            <p class="price"><span class="discount">₹4999</span> ₹2499</p>
-            <button class="button">Enroll Now</button>
-        </div>
+    <section id="about">
+      <h2>About Me</h2>
+      <p>I'm Shreyas Karale – passionate about photo & video editing. I’ve created affordable, practical courses to help you become an expert editor. Let's grow together!</p>
+    </section>
 
-        <div class="contact-section">
-            <h2>Contact Us</h2>
-            <p class="contact-info">📞 Phone: 9284802973</p>
-            <p class="contact-info">📧 Email: editwithbeast@gmail.com</p>
-        </div>
-    </div>
+    <section id="faq">
+      <h2>FAQ</h2>
+      <p><strong>Q: Do I need a laptop?</strong> A: No! You can learn everything on your phone.</p>
+      <p><strong>Q: Will I get access immediately?</strong> A: Yes, after payment you get instant access.</p>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <p>📞 <a href="tel:9284802973">9284802973</a></p>
+      <p>📧 <a href="mailto:editwithbeast@gmail.com">editwithbeast@gmail.com</a></p>
+      <p>📷 <a href="https://instagram.com/thee.shreyazz" target="_blank">@thee.shreyazz</a></p>
+      <p>💬 <a class="btn" href="https://wa.me/919284802973" target="_blank">Message on WhatsApp</a></p>
+    </section>
+
+    <section>
+      <h2>Pay Now</h2>
+      <p>Use UPI ID: <strong>sonaligawate86@oksbi</strong> or <strong>9284802973@fam</strong></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 EditWithBeasT. All rights reserved.</p>
+  </footer>
 </body>
 </html>
