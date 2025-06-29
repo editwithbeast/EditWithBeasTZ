@@ -1,1 +1,1 @@
-👉 Put your images here: hero.jpg, about.jpg, course1.jpg, course2.jpg
+👉 This folder will contain all your editing & Adobe images. Replace with real images later!
