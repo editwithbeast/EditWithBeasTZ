@@ -1,0 +1,1 @@
+👉 Put your images here: hero.jpg, about.jpg, course1.jpg, course2.jpg

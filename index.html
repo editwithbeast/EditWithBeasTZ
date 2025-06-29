@@ -20,11 +20,8 @@
     <button id="toggle-theme">Toggle Theme</button>
   </header>
 
-  <section id="home">
-    <video autoplay muted loop id="bg-video">
-      <source src="assets/video.mp4" type="video/mp4">
-      Your browser does not support HTML5 video.
-    </video>
+  <section id="home" class="hero">
+    <img src="assets/images/hero.jpg" alt="PC Setup RGB" class="hero-img" />
     <div class="hero-text">
       <h2>Master Video & Photo Editing — Join My Premium Courses</h2>
       <a href="#courses" class="btn">View Courses</a>
@@ -33,12 +30,24 @@
 
   <section id="about">
     <h2>About</h2>
+    <img src="assets/images/about.jpg" alt="Editing Workspace" class="section-img" />
     <p>Welcome to EditWithBeasTZ — your premium hub for learning high-end video & photo editing. Transform your skills and unleash your creativity!</p>
   </section>
 
   <section id="courses">
     <h2>Courses</h2>
-    <p>Explore our range of professional courses designed for creators, freelancers, and influencers.</p>
+    <div class="courses-grid">
+      <div class="course-card">
+        <img src="assets/images/course1.jpg" alt="Color Grading" />
+        <h3>Advanced Color Grading</h3>
+        <p>Learn professional color grading techniques for cinematic looks.</p>
+      </div>
+      <div class="course-card">
+        <img src="assets/images/course2.jpg" alt="Editing Setup" />
+        <h3>Pro Editing Workflow</h3>
+        <p>Master your editing setup and workflow for maximum efficiency.</p>
+      </div>
+    </div>
     <a href="https://forms.gle/" target="_blank" class="btn">Buy a Course (Google Form)</a>
   </section>
 
@@ -57,6 +66,10 @@
     <p>Email: yourname@example.com</p>
     <a href="https://wa.me/yourwhatsapplink" target="_blank" class="btn">Chat on WhatsApp</a>
   </section>
+
+  <footer>
+    <p>&copy; 2025 EditWithBeasTZ. All rights reserved.</p>
+  </footer>
 
   <script>
     const toggle = document.getElementById('toggle-theme');
